@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>IzCorp | IzPhoenixcraft</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://resources.izmichael.xyz/assets/tailwind2.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="/assets/js/import-html.js"></script>
+        <script src="/assets/js/main.js"></script>
+        <link rel="stylesheet" href="/assets/styles.css">
+    </head>
+
+    <body>
+        <header class="flex flex-col gap-20 pt-20 p-5 items-center justify-center bg-gray-200">
+            <h1 class="text-6xl">IzCorp</h1>
+            <div class="flex flex-row w-full items-center justify-center px-10 gap-5 text-center text-lg">
+                <btn onclick="scrollToID('ourBrands')">IzCorp Brands</btn>
+                <btn onclick="goToPage('izcorp/izmart')">IzMart</btn>
+            </div>
+        </header>
+        <div id="pageWrapper" class="p-10 bg-gray-100 flex flex-col gap-5">
+            <div class="shadow-lg rounded-lg p-5" id="aboutUs">
+                <h2 class="text-xl mb-3">About Us</h2>
+                <p>IzCorp is a </p>
+            </div>
+            <div class="shadow-lg rounded-lg p-5" id="ourBrands">
+                <h2 class="text-xl mb-3">Our Brands</h2>
+                <div class="grid grid-cols-3 gap-5 text-lg text-center">
+                    <div class="p-5 rounded-lg shadow-md transform transition duration-700 ease-In-Out hover:translate-x-2 hover:translate-y-2">IzMart</div>
+                    <div class="p-5 rounded-lg shadow-md transform transition duration-700 ease-In-Out hover:translate-x-2 hover:translate-y-2">IzOrganise</div>
+                    <div class="p-5 rounded-lg shadow-md transform transition duration-700 ease-In-Out hover:translate-x-2 hover:translate-y-2">IzMusic</div>
+                </div>
+            </div>
+        </div>
+        <footer></footer>
+    </body>
+
+</html>

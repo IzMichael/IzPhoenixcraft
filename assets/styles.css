@@ -1,0 +1,29 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+btn {
+    padding: 0.5rem;
+    --tw-bg-opacity: 1;
+    background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
+    border-radius: 0.5rem;
+    flex: 1 1 0%;
+    cursor: pointer;
+    --padding-x: 2rem;
+    padding-left: var(--padding-x);
+    padding-right: var(--padding-x);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+btn:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
+}
